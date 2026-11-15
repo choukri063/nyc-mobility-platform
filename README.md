@@ -134,7 +134,7 @@ Environ 96 % des lignes sont conservées. Les zones sans quartier (`Unknown`, `N
 
 - Les pourboires en espèces ne sont pas enregistrés par les taximètres : ils valent 0 dans les données et ne sont pas comparables aux paiements par carte.
 - Le revenu par mois affiché dans le dashboard est estimé à partir des paniers moyens arrondis.
-- Les tables Silver et Gold du dossier `snowflake/` sont le prototype SQL initial. La version de référence est celle de dbt, dans le schéma `DBT_DEV`.
+
 
 ## Structure du projet
 
