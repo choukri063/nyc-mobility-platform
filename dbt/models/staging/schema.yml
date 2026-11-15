@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: stg_taxi_zones
+    columns:
+      - name: location_id
+        tests: [unique, not_null]
+
+  - name: stg_yellow_trips
+    columns:
+      - name: pickup_at
+        tests: [not_null]
+      - name: pickup_zone_id
+        tests: [not_null]
+      - name: total_amount
+        tests: [not_null]
+      - name: payment_type
+        tests:
+          - accepted_values:
+              values: [0, 1, 2, 3, 4, 5, 6]

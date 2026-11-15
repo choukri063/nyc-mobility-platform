@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: NYC_MOBILITY
+    schema: BRONZE
+    tables:
+      - name: yellow_trips
+      - name: taxi_zones
